@@ -1,0 +1,116 @@
+/* General Styling */
+body {
+    font-family: "Poppins", sans-serif;
+    background: #DDA853;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Main Container */
+.container {
+    width: 90%;
+    max-width: 600px;
+    background: #A6CDC6;
+    color: black;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 10px 25px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Header */
+header h1 {
+    font-size: 24px;
+    margin-bottom: 5px;
+    color: #2a5298;
+}
+
+/* Chat Section */
+.chat-container {
+    margin-top: 15px;
+}
+
+#chat-box {
+    height: 250px;
+    overflow-y: auto;
+    background: #FBF5DD;
+    border-radius: 8px;
+    padding: 15px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+/* Input Group */
+.input-group {
+    display: flex;
+    margin-top: 10px;
+}
+
+input {
+    flex: 1;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+button {
+    background: #16404D;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+    margin-left: 5px;
+}
+
+button:hover {
+    background: #1e3c72;
+}
+
+/* Flashcards */
+.flashcard-container {
+    margin-top: 20px;
+}
+
+#flashcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    padding: 10px;
+}
+
+.flashcard {
+    background: #2a5298;
+    color: white;
+    padding: 15px;
+    border-radius: 8px;
+    text-align: center;
+    width: 120px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.flashcard:hover {
+    transform: scale(1.1);
+    background: #1e3c72;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}

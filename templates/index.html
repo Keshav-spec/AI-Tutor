@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Tutor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <!-- Header Section -->
+        <header>
+            <h1>AI Tutor</h1>
+            <p>Your personal AI-powered learning assistant</p>
+        </header>
+
+        <!-- Chat Section -->
+        <div class="chat-container">
+            <div id="chat-box"></div>
+            <div class="input-group">
+                <input id="user-input" type="text" placeholder="Type your question...">
+                <button id="send-btn">Send</button>
+                <button id="mic-btn">🎤</button>
+                <p id="status-indicator" style="text-align: center; font-size: 16px; font-weight: bold; margin-top: 10px;"></p>
+            </div>
+        </div>
+
+        <!-- Flashcards Section -->
+        <div class="flashcard-container">
+            <h2>Flashcards</h2>
+            <div id="flashcards"></div>
+            <button id="addFlashcard">+ Add Flashcard</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
