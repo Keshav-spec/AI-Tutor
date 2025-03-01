@@ -4,6 +4,7 @@
 The **AI Tutor** is an interactive, voice-enabled learning assistant designed to provide an intuitive and engaging tutoring experience. It leverages advanced natural language processing (NLP) and speech recognition to facilitate seamless communication between users and the AI. Additionally, the project incorporates flashcards as a study aid, ensuring an efficient learning environment.
 
 With a user-friendly interface, smooth animations, and an appealing color palette, this AI-powered chatbot stands out as an intelligent tutor that enhances personalized learning.
+
 ![Alt Text](https://github.com/Keshav-spec/AI-Tutor/blob/main/Screenshot%202025-03-01%20155453.png?raw=true)
 ---
 
